@@ -5,12 +5,16 @@ import streamlit as st
 # import base64
 # import pandas as pd
 # import google.generativeai as genai
-from langchain.schema import HumanMessage, AIMessage
+# from langchain.schema import HumanMessage, AIMessage
 from huggingface_hub import InferenceClient
 from IPython.display import Markdown, display
 import pandas as pd
+import os
+from dotenv import load_dotenv
 
-client = InferenceClient(api_key="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")
+load_dotenv()
+api_key = os.getenv("HUGGINGFACE_API_KEY")
+client = InferenceClient(api_key=api_key)
 
 # Function to generate content from a user question
 def generate_content(question):
@@ -21,7 +25,7 @@ def generate_content(question):
         }
     ]
     completion = client.chat.completions.create(
-        model="mistralai/Mixtral-8x7B-Instruct-v0.1", 
+        model="deepseek-ai/DeepSeek-V3.2", 
         messages=messages, 
         max_tokens=20000
     )

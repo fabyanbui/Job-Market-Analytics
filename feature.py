@@ -6,8 +6,8 @@ import base64
 import pandas as pd
 import google.generativeai as genai
 
-genai.configure(api_key='AIzaSyATJ5uq68NHapHd59HJRCzO7MsRBc-mKzI')
-model = genai.GenerativeModel('gemini-1.5-flash')
+genai.configure(api_key='AIzaSyB3F-YSBR2-ZbBvJUodyIuxo4DTVJ43KoU')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 def generate_cv(job_data, candidate_data):
     buffer = BytesIO()
