@@ -27,7 +27,7 @@ streamlit run app.py
 - Open browser and go to http://localhost:8501/
 
 - Then, launch the app 😍
-- Deploy Streamlit Link: [Link](https://fabyanbui-job-market-analytics-app-19l531.streamlit.app/)
+- Deploy Streamlit Link: [Link](https://fabyanbui-job-market-analytics.streamlit.app/)
 
 ## About
 
