@@ -1,81 +1,26 @@
 ### Basic
 numpy
 pandas
+
 ### Visualize
 matplotlib
 seaborn
 plotly
-### ML & DL
-scikit-learn
-keras
-tensorflow
-torch 
-torchvision 
-torchaudio
-scipy
-# theano
-transformers
+
 ### Crawler
 selenium
 bs4
-playwright
-requests
-scrapy
+
 ### Web Development
-# streamlit
-pyngrok
-### Metrics
-sacrebleu
+streamlit
+
 ### Kernel
 ipykernel
+
 ### MongoDB
 pymongo # bson included
-### To PDF
-pandoc
-nbconvert
+
 ### API
 google
 google-generativeai
 deep_translator
-
-### LLM
-# langchain
-# langchain-community
-# langchain-core
-# langchain_experimental
-# langchain_google_vertexai
-# langchain-google-genai
-# langchain-openai
-# pinecone-client
-# python-dotenv
-tf-keras
-sentence-transformers
-openai
-chromadb
-pydantic
-
-# langchain==0.1.1
-# langchain-core
-# langchain-text-splitters
-# pinecone-client==2.2.4
-# python-dotenv==1.0.0
-# streamlit==1.29.0
-
-langchain
-langchain-text-splitters
-langchain-core
-streamlit
-pinecone
-pinecone-client
-langchain-pinecone 
-pinecone-notebooks
-python-dotenv
-reportlab
-
-# json
-# sagemaker
-# boto3
-
-huggingface_hub
-
-protobuf==3.20.3
