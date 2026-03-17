@@ -19,6 +19,8 @@ ipykernel
 
 ### MongoDB
 pymongo # bson included
+cryptography
+pyopenssl
 
 ### API
 google
