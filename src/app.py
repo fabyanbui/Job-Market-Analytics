@@ -1,10 +1,5 @@
 import streamlit as st
-# from reportlab.pdfgen import canvas
-# from reportlab.lib.pagesizes import A4
-# from io import BytesIO
-# import base64
-# import pandas as pd
-# import google.generativeai as genai
+
 from dashboard import tab_1
 from recommendation import tab_2
 from chatbot import tab_3
@@ -28,6 +23,7 @@ with tab2:
 with tab3:
     tab_3()
 
+# Tab 4: Features
 with tab4:
     tab_4()
 

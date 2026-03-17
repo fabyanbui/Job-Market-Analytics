@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-df = pd.read_csv('processed_data.csv')
+df = pd.read_csv('data/processed_data.csv')
 
 col = ['ten_cong_viec', 'ten_cong_ty', 'muc_luong', 'dia_chi', 'nganh_nghe', 'quy_mo_cong_ty', 'quoc_tich_cong_ty',
        'nam_kinh_nghiem', 'cap_bac', 'loai_hinh', 'loai_hop_dong', 'cong_nghe_su_dung', 'url', 'url_cong_ty']
